@@ -53,11 +53,10 @@ To detect faces in an image using a pretrained model
 ## Reference
 * [YOLOv9](https://github.com/WongKinYiu/yolov9) - YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information
 * [WIDER FACE](http://shuoyang1213.me/WIDERFACE) - WIDER FACE: A Face Detection Benchmark
-* [YOLO5Face](https://github.com/deepcam-cn/yolov5-face) - YOLO5Face: Why Reinventing a Face Detector
+* [YOLO5Face](https://github.com/deepcam-cn/yolov5-face)
 
 
-
-* ## Credits
-* https://github.com/spacewalk01/yolov9-face-detection/tree/main
+## Credits
+* https://github.com/spacewalk01/yolov9-face-detection
 * https://github.com/WongKinYiu/yolov9
 * https://github.com/deepcam-cn/yolov5-face
