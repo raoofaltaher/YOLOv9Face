@@ -20,9 +20,9 @@ Ensure you have Python 3.8+ and pip installed on your system.
 
 Clone this repository and install the required dependencies:
 
-git clone https://github.com/raoofaltaher/YOLOv9Face.git
-cd YOLOv9Face
-pip install -r requirements.txt
+- git clone https://github.com/raoofaltaher/YOLOv9Face.git
+- cd YOLOv9Face
+- pip install -r requirements.txt
 
 
 ### Quick Start
