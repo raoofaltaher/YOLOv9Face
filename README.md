@@ -26,9 +26,9 @@ Clone this repository and install the required dependencies:
 
 
 ### Quick Start
-To detect faces in an image using a pretrained model
 
-python detect.py --source path/to/your/image.jpg
+To detect faces in an image using a pretrained model
+- python detect.py --source path/to/your/image.jpg
 
 ## Citation
 
