@@ -25,6 +25,43 @@ Clone this repository and install the required dependencies:
 - cd YOLOv9Face
 - pip install -r requirements.txt
 
+###  Data Preparation
+
+The WIDER dataset comprises of more than 30k images with more than 390k faces, each with bouding box and other various label formats.
+
+**Dataset structure**
+```
+${ROOT}
+└── yolov9
+└── datasets/    
+    └── widerface/
+        └── train/
+        └── val/
+    └── original-widerface/
+        └── train/
+            └── images/
+            └── label.txt
+        └── val/
+            └── images/
+            └── label.txt
+└── train2yolo.py
+└── val2yolo.py
+└── widerface.yaml
+```
+
+To prepare the data:
+
+1. Download the [WIDER-FACE](http://shuoyang1213.me/WIDERFACE) datasets.
+2. Download the annotation files from [google drive](https://drive.google.com/file/d/1tU_IjyOwGQfGNUvZGwWWM4SwxKp2PUQ8/view?usp=sharing).
+
+Run the following commands:
+
+```shell
+python train2yolo.py datasets/original-widerface/train datasets/widerface/train
+python val2yolo.py datasets/original-widerface datasets/widerface/val
+```
+
+These scripts will convert your annotation files to YOLO format, creating one .txt file per image. Each row in the file will represent a single object in the format: `class x_center y_center width height`.
 
 ### Quick Start
 
